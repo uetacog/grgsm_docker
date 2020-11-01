@@ -1,0 +1,164 @@
+# Recent settings file for Wireshark 2.6.4.
+#
+# This file is regenerated each time Wireshark is quit.
+# So be careful, if you want to make manual changes here.
+
+######## Recent capture files (latest last), cannot be altered through command line ########
+
+recent.capture_file: /home/gerald/src/redcell/phx/july29/flight_pcap_slc_phx-01.cap
+recent.capture_file: /home/gerald/src/redcell/villan_day_2/villain-day2-grasspath-gokitt11.cap-02.cap
+recent.capture_file: /home/gerald/src/redcell/gsm_pcap/capture.pcapng
+recent.capture_file: /home/gerald/src/redcell/raven2/onthex2.pcapng
+recent.capture_file: /home/gerald/src/redcell/raven2/legit_gsm.pcapng
+recent.capture_file: /home/gerald/src/redcell/raven2/onthex.pcapng
+recent.capture_file: /home/gerald/src/redcell/raven2/okc.pcapng
+recent.capture_file: /home/gerald/src/redcell/raven2/onthex3.pcapng
+recent.capture_file: /home/gerald/src/redcell/raven3/Range44/gsm.pcapng
+recent.capture_file: /home/gerald/src/redcell/raven3/Range44/range44gsm.pcap
+
+######## Recent capture filters (latest last), cannot be altered through command line ########
+
+recent.capture_filter: udp
+recent.capture_filter.lo: udp
+
+######## Recent display filters (latest last), cannot be altered through command line ########
+
+recent.display_filter: gsmtap
+recent.display_filter: e212.imsi 
+recent.display_filter: e212.imsi || gsm_a.rr.cell_reselect_offset || gsm_a.rr.timing_adv || gsm_a.dtap.rej_cause
+recent.display_filter: gsm_a.dtap.rej_cause
+recent.display_filter: gsm_a.gm.sm.pco.reject_code
+recent.display_filter: gsm_a.rr.timing_adv
+recent.display_filter: e212.imsi || gsm_a.rr.cell_reselect_offset || gsm_a.rr.timing_adv
+recent.display_filter: gsm_a.rr.timing_adv == 41
+recent.display_filter: e212.imsi || gsm_a.rr.cell_reselect_offset
+recent.display_filter: e212.imsi && gsm_a.rr.cell_reselect_offset
+
+# Main window geometry.
+# Decimal numbers.
+gui.geometry_main_x: 0
+gui.geometry_main_y: 36
+gui.gtk.geometry_main_x: 20
+gui.gtk.geometry_main_y: 20
+gui.geometry_main_width: 1920
+gui.geometry_main_height: 1025
+
+# Main window maximized.
+# TRUE or FALSE (case-insensitive).
+gui.geometry_main_maximized: TRUE
+
+# Statusbar left pane size.
+# Decimal number.
+gui.geometry_status_pane: 250
+
+# Statusbar middle pane size.
+# Decimal number.
+gui.geometry_status_pane_right: 250
+
+# Last used Configuration Profile.
+gui.last_used_profile: Default
+
+# WLAN statistics upper pane size.
+# Decimal number.
+gui.geometry_status_wlan_stats_pane: 200
+
+# Warn if running with elevated permissions (e.g. as root).
+# TRUE or FALSE (case-insensitive).
+privs.warn_if_elevated: TRUE
+
+# Warn if npf.sys isn't loaded on Windows >= 6.0.
+# TRUE or FALSE (case-insensitive).
+privs.warn_if_no_npf: TRUE
+
+# Geometry and maximized state of FollowStreamDialog window.
+# Decimal integers.
+gui.geom.FollowStreamDialog.x: 3200
+gui.geom.FollowStreamDialog.y: 54
+gui.geom.FollowStreamDialog.width: 1920
+gui.geom.FollowStreamDialog.height: 1007
+# TRUE or FALSE (case-insensitive).
+gui.geom.FollowStreamDialog.maximized: FALSE
+
+# Geometry and maximized state of PreferencesDialog window.
+# Decimal integers.
+gui.geom.PreferencesDialog.x: 598
+gui.geom.PreferencesDialog.y: 223
+gui.geom.PreferencesDialog.width: 707
+gui.geom.PreferencesDialog.height: 475
+# TRUE or FALSE (case-insensitive).
+gui.geom.PreferencesDialog.maximized: FALSE
+
+# Geometry and maximized state of ProtocolHierarchyDialog window.
+# Decimal integers.
+gui.geom.ProtocolHierarchyDialog.x: 0
+gui.geom.ProtocolHierarchyDialog.y: 54
+gui.geom.ProtocolHierarchyDialog.width: 1920
+gui.geom.ProtocolHierarchyDialog.height: 1007
+# TRUE or FALSE (case-insensitive).
+gui.geom.ProtocolHierarchyDialog.maximized: FALSE
+
+# Geometry and maximized state of ProfileDialog window.
+# Decimal integers.
+gui.geom.ProfileDialog.x: 721
+gui.geom.ProfileDialog.y: 384
+gui.geom.ProfileDialog.width: 470
+gui.geom.ProfileDialog.height: 300
+# TRUE or FALSE (case-insensitive).
+gui.geom.ProfileDialog.maximized: FALSE
+
+# Geometry and maximized state of EnabledProtocolsDialog window.
+# Decimal integers.
+gui.geom.EnabledProtocolsDialog.x: 3655
+gui.geom.EnabledProtocolsDialog.y: 197
+gui.geom.EnabledProtocolsDialog.width: 987
+gui.geom.EnabledProtocolsDialog.height: 595
+# TRUE or FALSE (case-insensitive).
+gui.geom.EnabledProtocolsDialog.maximized: FALSE
+
+# Geometry and maximized state of ManageInterfacesDialog window.
+# Decimal integers.
+gui.geom.ManageInterfacesDialog.x: 581
+gui.geom.ManageInterfacesDialog.y: 322
+gui.geom.ManageInterfacesDialog.width: 750
+gui.geom.ManageInterfacesDialog.height: 425
+# TRUE or FALSE (case-insensitive).
+gui.geom.ManageInterfacesDialog.maximized: FALSE
+
+# Geometry and maximized state of DecodeAsDialog window.
+# Decimal integers.
+gui.geom.DecodeAsDialog.x: 573
+gui.geom.DecodeAsDialog.y: 264
+gui.geom.DecodeAsDialog.width: 750
+gui.geom.DecodeAsDialog.height: 460
+# TRUE or FALSE (case-insensitive).
+gui.geom.DecodeAsDialog.maximized: FALSE
+
+# Geometry and maximized state of PacketDialog window.
+# Decimal integers.
+gui.geom.PacketDialog.x: 0
+gui.geom.PacketDialog.y: 54
+gui.geom.PacketDialog.width: 1920
+gui.geom.PacketDialog.height: 1007
+# TRUE or FALSE (case-insensitive).
+gui.geom.PacketDialog.maximized: FALSE
+
+# Geometry and maximized state of ColoringRulesDialog window.
+# Decimal integers.
+gui.geom.ColoringRulesDialog.x: 310
+gui.geom.ColoringRulesDialog.y: 86
+gui.geom.ColoringRulesDialog.width: 1280
+gui.geom.ColoringRulesDialog.height: 820
+# TRUE or FALSE (case-insensitive).
+gui.geom.ColoringRulesDialog.maximized: FALSE
+
+# Custom colors.
+# List of custom colors selected in Qt color picker.
+gui.custom_colors: 
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff"
