@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+[Desktop Entry]
+Version=1.0
+Terminal=true
+Type=Application
+Name=gr-gsm
+Exec=/home/ueta/src/dockerFiles/gr-gsm/run.sh
+Icon=/usr/share/icons/Adwaita/scalable/status/network-cellular-2g-symbolic.svg
